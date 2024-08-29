@@ -139,9 +139,12 @@ p{
     padding: 1.2rem;
     color: var(--grayish_blue);
 }
-.title a:focus, .title a:hover{
+.title a:focus{
     color: var(--Very_dark_blue);
     border-bottom: 2px solid var(--soft_red);
+}
+.title  a:hover{
+    color: var(--soft_red);
 }
 .title > hr{
     display: none;
